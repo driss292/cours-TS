@@ -10,4 +10,4 @@ let randomNumber: number;
 const convertion = (celsius: number) => {
     return (celsius * 9) / 5 + 32;
 };
-console.log(convertion(10));
+console.log(convertion(50));
