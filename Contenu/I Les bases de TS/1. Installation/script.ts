@@ -1,9 +1,9 @@
 let str: string = "Hello World";
 
-function foo() {
+function firstName() {
     return "Driss";
 }
 
-function hey() {
-    return "Driss";
+function lastName() {
+    return "Kaci";
 }
