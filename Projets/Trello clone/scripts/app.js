@@ -125,6 +125,7 @@ function handleDrop(e) {
     var _a;
     e.stopPropagation();
     const receptionEl = this;
+    // Si LI et container vide
     if (dragSrcEl.nodeName === "LI" && receptionEl.classList.contains("items-container")) {
         receptionEl.querySelector("ul").appendChild(dragSrcEl);
         addDDListener(dragSrcEl);

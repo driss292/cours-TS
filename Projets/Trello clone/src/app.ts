@@ -142,6 +142,7 @@ function handleDrop(this: HTMLElement, e: DragEvent) {
     e.stopPropagation();
     const receptionEl = this;
 
+    // Si LI et container vide
     if (dragSrcEl.nodeName === "LI" && receptionEl.classList.contains("items-container")) {
         (receptionEl.querySelector("ul") as HTMLUListElement).appendChild(dragSrcEl);
         addDDListener(dragSrcEl);
